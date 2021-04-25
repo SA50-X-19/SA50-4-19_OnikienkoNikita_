@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #02160b;
+}
+
+.header {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+.fox {
+    background-image: url(./123/1.jpg);
+    max-width: 1440px;
+    width: 100%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    width: 100%;
+    height: 60px;
+}
+.path0 {
+    background-image: url(./123/path0.svg);
+    width: 68.2px;
+    height: 60px;
+}
+
+.texts {
+    width: 155px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    justify-content: space-between;
+}
+.ser {
+    background-image: url(./123/Vector.svg);
+    width: 23px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.ser:hover {
+    transform: scale(1.2);
+}
+
+.nav {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+}
+.navl {
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navi {
+    display: flex;
+    align-items: center;
+}
+.navli {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.navli:hover {
+    transform: scale(1.2);
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+}
+.signin:hover {
+    background: #CD6326;
+    border: 2px solid #CD6326;
+}
+.signin:active {
+    background: #8F5613;
+    border: 2px solid #8F5613;
+}
+.signinl {
+    font-family: Roboto;
+    color: #F7F7F7;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 27px;
+    margin: auto;
+}
+.h1 {
+    display: none;
+}
+/* wildlife-survivel */
+.sur {
+    max-width: 1200px;
+    width: 100%;
+}
+.sur1 {
+    display: flex;
+    max-width: 275px;
+    width: 100%;
+    height: 340px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.surt {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #CD6326;
+}
+
+.textq {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+    text-align: justify;
+}
+.don {
+    display: flex;
+    align-items: center;
+    border: 2px solid #CD6326;
+    background: #CD6326;
+    border-radius: 5px;
+    width: 160px;
+    height: 60px;
+
+}
+
+.don:hover {
+    background: #ff7b00;
+    border: 2px solid #ff7b00;
+}
+
+.don:active {
+    background: #CD6326;
+    border: 2px solid #CD6326;
+}
+
+.dont {
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #F7F7F7;
+    margin: auto;
+}
